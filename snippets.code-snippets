@@ -54,4 +54,22 @@
 			"useEffect(() => {}, [$1]);"
 		]
 	},
+	"fluent Style Snip": {
+		"prefix": "sni18",
+		"body": [
+			"const { t } = useI18nTranslation();"
+		]
+	},
+	"Snip Fluent Style": {
+		"prefix": "snFluentStyle",
+		"body": [
+			"import { mergeStyleSets } from '@fluentui/react';",
+			"type IComponentClassNames = {",	
+			"};",
+			"export const getClassNames = (): IComponentClassNames => {",
+			"return mergeStyleSets({",
+			  "});",
+			"};"
+		]
+	},
 }
