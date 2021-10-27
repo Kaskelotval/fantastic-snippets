@@ -38,7 +38,7 @@
 	"useState Snip": {
 		"prefix": "snUseState",
 		"body": [
-			"const [$1, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = useState<$3>({$4})"
+			"const [$1, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = useState<$3>($4)"
 
 		]
 	},
